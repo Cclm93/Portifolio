@@ -13,3 +13,4 @@ document.querySelectorAll('a').forEach(link =>{
 
 i.style.display = 'block'
 i.style.position.y = 200 
+

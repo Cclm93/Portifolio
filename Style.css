@@ -132,13 +132,7 @@ ul li a:hover, ul li a:active{
     /*background: #12729b;*/
 }
 
-.boxcontato{
-   display:flex;
-   flex-direction: row;
-   justify-content: center;
-   background:  #18283B;
-  
-}
+
 .boxcurriculos{
     /* background: #2F308B;*/
  }
@@ -159,13 +153,27 @@ h2{
  }
 
 footer{
+    
     padding: 15px 5px;
     background: #18283B;
     color: white;
 }
 
+
+.boxcontato{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background:  #18283B;
+    height: 100px;
+ }
+
+
 .boxcontato button{
+    height: 33px;
     background: #18283B;
+    margin-left: 15px;
+    margin-top: 40px;
 }
 
 button img{
@@ -200,7 +208,3 @@ button img{
 .elem3{
     border: 1px solid rgb(48, 15, 238);
 }
-
-
-
-
