@@ -45,6 +45,10 @@ ul li a:hover, ul li a:active{
     background: rgba(137, 137, 143, 0.333);
 }
 
+.logo{
+    height: 100px;
+    width: 100px;
+}
 .boxsobre {
     display: flex;
     flex-direction: row;
