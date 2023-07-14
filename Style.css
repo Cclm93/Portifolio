@@ -22,6 +22,8 @@ nav{
     align-items: center;
     background: #577D86;
     color: #B9EDDD;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 .menu ul li{
