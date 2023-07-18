@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="Style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
 
 </head>
 
 <body>   
-   
+   <!--
     <p>Demonstrate fadeIn() with different parameters.</p>
 
     <button>Click to fade in boxes</button><br><br>
@@ -27,7 +28,7 @@
     <p>Click me too!</p>
    
    
-   
+   -->
    
     <nav class="menu">
     <img class="logo" src="logo.png">
@@ -78,17 +79,19 @@
     <h1>Habilidades</h1>   
      <h2>Hardskills</h2>   
 
+     <button id="ativar" >ativar</button>
+     <button id="desativar" >desativar</button>
     <div class="boxskills">  
             <div class=" boxv">
                 <p><b>Linguagens de computação</b></p>
                 <ul>
-                        <li><img src="icons/javascript.svg">Javascript</li>
-                        <li><img src="icons/html5.svg">HTML5</li>
-                        <li><img src="icons/css3.svg">CSS3</li> 
-                        <li><img src="icons/typescript.svg">Typescript</li>
-                        <li><img src="icons/c.svg">C</li>
-                        <li><img src="icons/java.svg">Java</li>             
-                        <li><img src="icons/go.svg">Go</li>     
+                        <li id="hab1"><img src="icons/javascript.svg">Javascript</li>
+                        <li id="hab2"><img src="icons/html5.svg">HTML5</li>
+                        <li id="hab3"><img src="icons/css3.svg">CSS3</li> 
+                        <li id="hab4"><img src="icons/typescript.svg">Typescript</li>
+                        <li id="hab5"><img src="icons/c.svg">C</li>
+                        <li id="hab6"><img src="icons/java.svg">Java</li>             
+                        <li id="hab7"><img src="icons/go.svg">Go</li>     
                </ul>
             </div>
       
@@ -97,9 +100,9 @@
             <div class="boxv">
                 <p><b>Frameworks</b></p>
                 <ul class="lista">
-                    <li><img src="icons/angularjs.svg">Angular</li>
-                    <li><img src="icons/vuejs.svg">Vue</li>
-                    <li><img src="icons/react.svg">React</li>
+                    <li id="hab8"><img src="icons/angularjs.svg">Angular</li>
+                    <li id="hab9"><img src="icons/vuejs.svg">Vue</li>
+                    <li id="hab10"><img src="icons/react.svg">React</li>
                </ul>
             </div>
 
@@ -109,13 +112,13 @@
             <div class="boxv">
                 <p><b>Ferramentas</b></p>
                 <ul>
-                    <li><img src="icons/nodejs.svg">Node js</li>
-                    <li><img src="icons/git.svg"> Git</li>
-                    <li><img src="icons/github.svg">Github</li>
-                    <li><img src="icons/gitlab.svg">Gitlab</li>
-                    <li><img src="icons/vscode.svg">Vscode</li>
-                    <li><img src="icons/docker.svg">Docker</li>
-                    <li><img src="icons/mysql.svg">MySQL</li>
+                    <li id="hab11"><img src="icons/nodejs.svg">Node js</li>
+                    <li id="hab12"><img src="icons/git.svg"> Git</li>
+                    <li id="hab13"><img src="icons/github.svg">Github</li>
+                    <li id="hab14"><img src="icons/gitlab.svg">Gitlab</li>
+                    <li id="hab15"><img src="icons/vscode.svg">Vscode</li>
+                    <li id="hab16"><img src="icons/docker.svg">Docker</li>
+                    <li id="hab17"><img src="icons/mysql.svg">MySQL</li>
                </ul>
             </div>       
       
@@ -124,13 +127,13 @@
             <div class="boxv">
                 <p><b>Diversas</b></p>
                 <ul>
-                    <li><img src="icons/bootstrap.svg">Bootstrap</li>
-                    <li><img src="icons/jquery-original.svg">JQuery</li>
-                    <li><img src="icons/webpack-original.svg">Webpack</li>
-                    <li><img src="icons/nextjs-original.svg">Next.js</li>
-                    <li><img src="icons/gulp-plain.svg">Gulp.js</li>
-                    <li><img src="icons/express-original.svg">Express.js</li>
-                    <li><img src="icons/npm.svg">Npm</li>
+                    <li id="hab18"><img src="icons/bootstrap.svg">Bootstrap</li>
+                    <li id="hab19"><img src="icons/jquery-original.svg">JQuery</li>
+                    <li id="hab20"><img src="icons/webpack-original.svg">Webpack</li>
+                    <li id="hab21"><img src="icons/nextjs-original.svg">Next.js</li>
+                    <li id="hab22"><img src="icons/gulp-plain.svg">Gulp.js</li>
+                    <li id="hab23"><img src="icons/express-original.svg">Express.js</li>
+                    <li id="hab24"><img src="icons/npm.svg">Npm</li>
                </ul>
              </div>       
         
@@ -168,7 +171,9 @@
         <h1>Certificados</h1>
         <div class=" boxv">
             <ul>
-                    <li> Curso Web Moderno Completo com JavaScript 2022 + Projetos  <b>(16/11/2022)</b> - <br> <a href="https://www.udemy.com/certificate/UC-5ea4495f-960d-43f8-a5e0-b484b870a21a/">https://www.udemy.com/certificate/UC-5ea4495f-960d-43f8-a5e0-b484b870a21a/</a></li>          
+                    <li> Curso Web Moderno Completo com JavaScript 2022 + Projetos  <b>(16/11/2022)</b> - 
+                        <br><a href="https://www.udemy.com/certificate/UC-5ea4495f-960d-43f8-a5e0-b484b870a21a/">https://www.udemy.com/certificate/UC-5ea4495f-960d-43f8-a5e0-b484b870a21a/</a>
+                    </li>          
            </ul>
         </div>
    </div>   
@@ -210,6 +215,6 @@
 
 </body>
 
-<script src="script.js"></script>
+
 
 </html>

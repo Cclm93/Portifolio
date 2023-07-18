@@ -156,6 +156,12 @@ ul li a:hover, ul li a:active{
     
 }
 
+.boxv ul li:hover{
+    border: 1px solid whitesmoke;
+    background-image: linear-gradient(to right ,#577D86, #73878b);
+}   
+
+
 .listasoft li{
     
     height: auto;
