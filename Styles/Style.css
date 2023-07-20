@@ -181,14 +181,16 @@ ul li a:hover, ul li a:active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #569DAA;
+   
+    background: #87CBB9;
 }
 
 .boxprojetos{
    display:flex;
    flex-direction: column;
    align-items: center;
-   background: #87CBB9;
+   background: #569DAA;
+  
 }
 
 .boxcurriculos{
@@ -261,6 +263,43 @@ button img{
     background-image: linear-gradient(to bottom,#569DAA, #577D86);
     height:40px;
 }
+
+
+.preview{
+    height: 300px;
+    width: 220px;
+    margin: 10px;
+    
+}
+
+
+
+.boxh{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxcurriculos .boxh .boxv{
+    display:flex;
+    flex-direction: column;
+}
+
+.certificadopreview{
+    height: 220px;
+    width: 260px;
+    border-radius: 20%;
+    
+}
+
+.boxcertificados .boxv ul li .certificadopreview:hover{
+   
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}   
+
+
+
+
+
 
 .elem1{
     border: 4px solid rgb(190, 238, 15);
