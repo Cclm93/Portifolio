@@ -71,3 +71,27 @@ $(document).ready(function(){
           
     });
   });
+
+  function estrelas(){
+    let count = 500;
+    let cena = document.querySelector('.cena');
+    let i=0;
+    while(i<count){
+      let estrela = document.createElement("i");
+      let x = Math.floor(Math.random() * window.innerWidth);
+      let y = Math.floor(Math.random() * window.innerHeight);
+      let duration = Math.random() * 10;
+      let size = Math.random() *2;
+
+      estrela.style.left = x + 'px'
+      estrela.style.top  = y + 'px'
+      estrela.style.width = 1 + size+'px'
+      estrela.style.height = 1 + size + 'px'
+
+      cena.appendChild(estrela);
+      i++;
+      console.log("entrou")
+    }
+  };
+
+  estrelas();
